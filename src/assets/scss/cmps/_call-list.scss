@@ -1,0 +1,17 @@
+.call-list {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    // background-color: antiquewhite;
+    .add-btn {
+        padding: 5px;
+        width: 100%;
+        border-bottom: 1px solid $clr3;
+        &:hover{
+            opacity: .8;
+            background: $clr4;
+        }
+    
+    }
+}

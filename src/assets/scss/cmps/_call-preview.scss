@@ -1,0 +1,11 @@
+.call-preview{
+    padding: 5px;
+    width: 100%;
+    border-bottom: 1px solid $clr3;
+    justify-content: space-evenly;
+    cursor: pointer;
+    &:hover{
+        opacity: .8;
+        background: $clr4;
+    }
+}
